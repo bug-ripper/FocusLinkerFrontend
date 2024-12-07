@@ -1,0 +1,30 @@
+
+//color variables
+$fontColor: #020202;
+$baseColor: #ffff ;
+$softGray: #f4f4f4;
+
+
+
+h1, h2, h3, h4, h5, h6, ul {
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  margin: 0;
+  height: 100%;
+  background-color: $softGray;
+}
+
+*{
+  font-family: SF Pro;
+  font-size: 16px;
+  color: $fontColor;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
